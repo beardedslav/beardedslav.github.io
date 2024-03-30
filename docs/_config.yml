@@ -18,22 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: High-Functional Programmer 
+title: High-Functional Programmer
 email: krzysztof@malinowski.scot
 description: >- # this means to ignore newlines until "baseurl:"
   The title of the blog is a play on "high-functioning autism" (a term
-  that is now [considered outdated](https://en.wikipedia.org/wiki/High-functioning_autism))
-  and "high-functioning depression", and functional programming.
+  that is now considered outdated, "high-functioning depression", and functional programming (which I don't do enough!).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.malinowski.scot" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.malinowski.scot" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  beardedslav
+github_username: beardedslav
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
